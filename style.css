@@ -1,0 +1,35 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+}
+
+ul#menu{
+	margin: 0;
+	padding: 0;
+	background-color: #88A61C;
+	line-height: 60px;
+}
+
+ul#menu li{
+	display: inline;
+}
+
+nav a:link, a:visited{
+	font-size:20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #D9C852;
+	padding: 21px;
+	text-shadow: 1px 1px 20px #000;
+}
+
+nav a:hover, a:active{
+		background-color: #D9C852;
+		color: #BC4014;
+		text-shadow:1px 1px 20px #FFF;
+	}
+
+.gallery{
+	list-style: none;
+}
